@@ -1,0 +1,23 @@
+/* footer{
+  background-attachment: fixed;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(183,231,246,1) 0%, rgba(56,143,170,1) 56%);
+  padding: 10px;
+} */
+
+
+
+
+
+ /* Navbar styles */
+ .navbar-brand {
+  margin-right: 20px; /* You can adjust the value as per your desired spacing */
+}
+
+/* Footer styles */
+footer {
+  background-attachment: fixed;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(183,231,246,1) 0%, rgba(56,143,170,1) 56%);
+  padding: 10px;
+  color: black;
+  font-size: 18px;
+}

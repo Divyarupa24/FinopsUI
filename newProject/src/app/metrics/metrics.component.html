@@ -1,0 +1,28 @@
+<!-- metrics.component.html -->
+<h2>Metrics</h2>
+<!-- Display metrics graph -->
+<!-- <div id="metrics-graph"></div> -->
+
+
+<!-- Display resource list -->
+<table>
+  <!-- Resource table headers -->
+  <tr>
+    <th>Resource Name</th>
+    <th>CPU Usage (%)</th>
+    <th>Memory Usage (%)</th>
+    <th>Network Usage (%)</th>
+    <th>Storage Usage (%)</th>
+    <th>View Graph</th>
+  </tr>
+  <!-- Loop through resources and display metrics -->
+  <tr *ngFor="let resource of resources">
+    <td>{{ resource.name }}</td>
+    <td>{{ resource.cpuUsage }}</td>
+    <td>{{ resource.memoryUsage }}</td>
+    <td>{{ resource.networkUsage }}</td>
+    <td>{{ resource.storageUsage }}</td>
+    <td>{{resource. Viewgraph}}</td>
+  </tr>
+</table>
+
